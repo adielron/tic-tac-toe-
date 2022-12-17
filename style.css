@@ -15,12 +15,15 @@
 header{
     margin-top: 5vmin;
     text-align:center;
-}
+
+  }
 
   h1 {
-
     font-size: 30px;
     color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 47.50%;
 
   }
   .wrapper {
@@ -31,10 +34,9 @@ header{
   }
   .container {
     width: 70vmin;
-    height: 70vmin;
-    display: flex;
     flex-wrap: wrap;
     gap: 2vmin;
+    display: flex;
   }
   .button{
     background: #ffffff;
@@ -61,4 +63,28 @@ header{
 
   }
 
+  .popup.hide{ 
+    display: none;
+  } 
 
+  .popup {
+    background-color: rgb(8, 8, 8);
+    align-items: center;
+    flex-direction: column;
+    font-size: 3vmin;
+    display: flex;
+    border-radius: 25px;
+
+    
+    width: 60vmin;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    flex-wrap: wrap;
+    top: 15%;
+    left: 47.5%;
+  }
+ p{
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
